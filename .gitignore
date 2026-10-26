@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.playwright-cli/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+backend/data/
+*.log
+*.db
+
+.DS_Store
+.env
+!.env.example
+
+# 开发期文档与草稿（不对外发布）
+mvp-plan.md
+readme-outline.md
+resume-project.md
+design-system/
+
+# 开发期截图与临时探针产物
+.screenshots/
+backend/scripts/_probe_tmp/
+backend/scripts/_probe_debug.py
+backend/scripts/_sign_run.js
+
